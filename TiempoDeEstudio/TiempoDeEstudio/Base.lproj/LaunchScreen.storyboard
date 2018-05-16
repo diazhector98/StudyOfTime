@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SOT_background" translatesAutoresizingMaskIntoConstraints="NO" id="nAF-Go-sQA">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stopwatch-2" translatesAutoresizingMaskIntoConstraints="NO" id="cbz-CD-90v">
+                                <rect key="frame" x="94" y="283" width="187" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="XNd-n6-FvT"/>
+                                    <constraint firstAttribute="width" constant="187" id="ee1-cS-lhy"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="nAF-Go-sQA" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="EcW-hH-jEK"/>
+                            <constraint firstItem="nAF-Go-sQA" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Zwb-r0-VqP"/>
+                            <constraint firstItem="nAF-Go-sQA" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="b6z-rY-dk8"/>
+                            <constraint firstItem="nAF-Go-sQA" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="b9f-g1-knt"/>
+                            <constraint firstItem="cbz-CD-90v" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="jdV-0I-DCH"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="nAF-Go-sQA" secondAttribute="bottom" id="jiy-FN-qx8"/>
+                            <constraint firstItem="cbz-CD-90v" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="uXb-n8-0tn"/>
+                            <constraint firstAttribute="trailing" secondItem="nAF-Go-sQA" secondAttribute="trailing" id="wqX-Gq-7KP"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="SOT_background" width="375" height="667"/>
+        <image name="stopwatch-2" width="331" height="352"/>
+    </resources>
+</document>

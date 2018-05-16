@@ -1,0 +1,18 @@
+PODS:
+  - Canvas (0.1.2)
+  - SpreadsheetView (0.8.4)
+  - SwiftSpreadsheet (1.0.0)
+
+DEPENDENCIES:
+  - Canvas
+  - SpreadsheetView
+  - SwiftSpreadsheet (~> 1.0)
+
+SPEC CHECKSUMS:
+  Canvas: eb861e3b555d032648146c8ffda1a5dea40059ca
+  SpreadsheetView: 17c55b6dc82099993cc2ceb818248d19f3220998
+  SwiftSpreadsheet: d7e6db9c84dd43804370135a039b540e6bb48b0f
+
+PODFILE CHECKSUM: 8678eb72c9ea193769d4df0fe16e53a3cb82685c
+
+COCOAPODS: 1.2.0
